@@ -1,6 +1,8 @@
-import React from 'react';
+import React from 'react'
+import * as builderActions from '../actions/builderActions'
 
-import LineChart from './charts/lineChart/LineChart'
+import BuilderControls from './builder/BuilderControls'
+import BuilderCanvas from './builder/BuilderCanvas'
 
 const data = [
   {
@@ -36,15 +38,24 @@ class Builder extends React.Component{
     console.log("Hey!")
   }
 
+  addItem = (itemType) => {
+    // addItem Logic
+  }
+
   render(){
-    return (<LineChart
-              data={data}
-              width={575}
-              height={550}
-              margin={{top: 100, right: 35, bottom: 100, left: 35}}
-            />
+    return (
+      <div className="row">
+        <div className="col-xs-12">
+          <header className="row">
+            <BuilderControls addItem={this.addItem} />
+          </header>
+          <section className="row drop-zone">
+            <BuilderCanvas />
+          </section>
+        </div>
+      </div>
     )
   }
 }
 
-export default Builder;
+export default Builder

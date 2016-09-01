@@ -1,0 +1,5 @@
+export const ADD_TEXT_ITEM = 'ADD_TEXT_ITEM'
+export const DELETE_TEXT_ITEM = 'DELETE_TEXT_ITEM'
+export const EDIT_TEXT_ITEM = 'EDIT_TEXT_ITEM'
+export const ADD_GRAPH = 'ADD_GRAPH'
+export const DELETE_GRAPH = 'DELETE_GRAPH'

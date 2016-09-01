@@ -1,6 +1,6 @@
 **In-House Coding Challenge**
 
-Welcome! The purpose of this exercise is to get a feel you coding style and overall approach to development. You don't need to finish all the tasks. In order to start please clone this repo, once you finish email a .zip file (with everything needed to run your implementation) to hello@weareinhouse.com
+Welcome! The purpose of this exercise is to get a feel for your coding style and overall approach to development. You don't need to finish all the tasks. In order to start please clone this repo, once you finish email a .zip file (with everything needed to run your implementation) to hello@weareinhouse.com
 There are several areas we'll be focusing during this challenge:
 
 1. **D3.JS**

@@ -1,6 +1,8 @@
 import React from 'react'
-import * as builderActions from '../actions/builderActions'
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
 
+import * as builderActions from '../actions/builderActions'
 import BuilderControls from './builder/BuilderControls'
 import BuilderCanvas from './builder/BuilderCanvas'
 
@@ -40,6 +42,7 @@ class Builder extends React.Component{
 
   addItem = (itemType) => {
     // addItem Logic
+    // this.props.actions.addTextItem()
   }
 
   render(){
@@ -57,5 +60,7 @@ class Builder extends React.Component{
     )
   }
 }
+
+Builder.propTypes = {}
 
 export default Builder
